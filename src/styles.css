@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.titulo-01 {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.h_delante {
+    z-index: 50;
+}
+.B-banner-01 {
+    border-bottom-left-radius: 100px;
+}
+

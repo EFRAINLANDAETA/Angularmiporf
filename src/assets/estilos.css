@@ -1,0 +1,192 @@
+/*estilos css*/
+.titulo-01 {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.B-banner-01 {
+    border-bottom-left-radius: 100px;
+}
+#titulo-02 {
+    border-bottom-left-radius: 10%;
+}
+.h_delante {
+    z-index: 50;
+}
+
+.base_barras{
+    display: flex;
+    justify-content: center;
+}
+:root{
+    --border-fondo1: 20px solid rgb(34, 231, 34, .3);
+    --border1: 20px solid rgb(10, 214, 10);
+    --border3: 20px solid rgb(5, 21, 170);
+}
+.contenedor{
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+.contenedor .progreso{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-left: var(--border3);
+    border-right: var(--border3);
+    border-top: var(--border3);
+    border-bottom: 25px solid transparent;
+    color: #fff;
+    text-align: center;
+}
+.contenedor .pro-1{
+    border: var(--border-fondo1);
+    color: rgb(10, 214, 10);
+}
+.progreso h1{
+    font-family: sans-serif;
+    margin-bottom: -27px;
+}
+.progreso h1,h2{
+    margin-top: 20px;
+}
+.progreso h2{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.progreso .circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    top: -20px;
+    left: -20px;
+    transform: rotate(-135deg);   
+}
+.circle1{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar1 1s linear forwards;
+    animation-delay: 1s;
+
+}
+.circle2{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar2 1s linear forwards;
+    animation-delay: 2s;
+    
+}
+.circle3{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar3 1s linear forwards;
+    animation-delay: 3s;
+    
+}
+.circle4{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar4 1s linear forwards;
+    animation-delay: 4s;
+
+}
+.circle5{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar5 1s linear forwards;
+    animation-delay: 5s;
+    
+}
+.circle6{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar6 1s linear forwards;
+    animation-delay: 6s;
+    
+}
+.circle7{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar7 1s linear forwards;
+    animation-delay: 7s;
+    
+}
+.circle8{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar8 1s linear forwards;
+    animation-delay: 8s;
+    
+}
+.circle9{
+    border-top: var(--border1);
+    border-left: var(--border1);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar9 1s linear forwards;
+    animation-delay: 9s;
+    
+}
+@keyframes rotar1{
+    100%{
+        transform: rotate(18deg);
+    }
+}
+@keyframes rotar2{
+    100%{
+        transform: rotate(36deg);
+    }
+}
+@keyframes rotar3{
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes rotar4{
+        100%{
+            transform: rotate(0deg);
+        }
+}
+@keyframes rotar5{
+        100%{
+            transform: rotate(9deg);
+        }
+}
+@keyframes rotar6{
+        100%{
+            transform: rotate(27deg);
+        }
+}
+@keyframes rotar7{
+    100%{
+        transform: rotate(36deg);
+    }
+}
+@keyframes rotar8{
+    100%{
+        transform: rotate(18deg);
+    }
+}
+@keyframes rotar9{
+    100%{
+        transform: rotate(-18deg);
+    }
+}
+.overflow_imp {
+    overflow: auto !important; 
+}
