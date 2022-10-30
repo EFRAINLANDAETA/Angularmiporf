@@ -1,0 +1,117 @@
+.base_barras{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+.cuadromar01{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-left: 20px solid rgb(101, 227, 236, 0.3);
+    border-right: 20px solid rgb(101, 227, 236, 0.3);
+    border-top: 20px solid rgb(101, 227, 236, 0.3);
+    border-bottom: 20px solid transparent;
+    color: rgb(10, 214, 10);
+    text-align: center;
+}
+.cuadromar01 h2{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadromar01 h1{
+    font-family: sans-serif;
+    margin-bottom: -27px;
+}
+.cuadromar01 h1,h2{
+    margin-top: 20px;
+}
+.cuadromar02{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    top: -20px;
+    left: -20px;
+    transform: rotate(-135deg);
+}
+.circulo1{
+    border-top: 20px solid rgb(10, 214, 10, 0.8);
+    border-left: 20px solid rgb(10, 214, 10, 0.8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar1 1s linear forwards;
+    animation-delay: 1s;
+}
+.circulo2{
+    border-top: 20px solid rgb(10, 214, 10, 0.8);
+    border-left: 20px solid rgb(10, 214, 10, 0.8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar2 1s linear forwards;
+    animation-delay: 2s;
+}
+.circulo3{
+    border-top: 20px solid rgb(10, 214, 10, 0.8);
+    border-left: 20px solid rgb(10, 214, 10, 0.8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar3 1s linear forwards;
+    animation-delay: 3s;
+}
+.circulo4{
+    border-top: 20px solid rgb(10, 214, 10, 0.8);
+    border-left: 20px solid rgb(10, 214, 10, 0.8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar4 1s linear forwards;
+    animation-delay: 4s;
+}
+.circulo5{
+    border-top: 20px solid rgb(10, 214, 10, 0.8);
+    border-left: 20px solid rgb(10, 214, 10, 0.8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar5 1s linear forwards;
+    animation-delay: 5s;
+}
+.circulo6{
+    border-top: 20px solid rgb(10, 214, 10, 0.8);
+    border-left: 20px solid rgb(10, 214, 10, 0.8);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: rotar6 1s linear forwards;
+    animation-delay: 6s;
+}
+@keyframes rotar1{
+    100%{
+        transform: rotate(18deg);
+    }
+}
+@keyframes rotar2{
+    100%{
+        transform: rotate(36deg);
+    }
+}
+@keyframes rotar3{
+    100%{
+        transform: rotate(27deg);
+    }
+}
+@keyframes rotar4{
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes rotar5{
+    100%{
+        transform: rotate(9deg);
+    }
+}
+@keyframes rotar6{
+    100%{
+        transform: rotate(27deg);
+    }
+}
