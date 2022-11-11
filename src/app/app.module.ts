@@ -10,9 +10,20 @@ import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { HardysoftSkillComponent } from './components/hardysoft-skill/hardysoft-skill.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BarraModAComponent } from './components/barra-mod-a/barra-mod-a.component';
+import { BarraModBComponent } from './components/barra-mod-b/barra-mod-b.component';
+import { BarraModCComponent } from './components/barra-mod-c/barra-mod-c.component';
+import { BarraModDComponent } from './components/barra-mod-d/barra-mod-d.component';
+import { BarraModEComponent } from './components/barra-mod-e/barra-mod-e.component';
+import { BarraModFComponent } from './components/barra-mod-f/barra-mod-f.component';
+import { BarraModGComponent } from './components/barra-mod-g/barra-mod-g.component';
+import { BarraModHComponent } from './components/barra-mod-h/barra-mod-h.component';
+import { BarraModIComponent } from './components/barra-mod-i/barra-mod-i.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
 
 @NgModule({
   declarations: [
@@ -27,11 +38,23 @@ import { HttpClientModule } from '@angular/common/http';
     HardysoftSkillComponent,
 
     FooterComponent,
+    BarraModAComponent,
+    BarraModBComponent,
+    BarraModCComponent,
+    BarraModDComponent,
+    BarraModEComponent,
+    BarraModFComponent,
+    BarraModGComponent,
+    BarraModHComponent,
+    BarraModIComponent,
   ],
 
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

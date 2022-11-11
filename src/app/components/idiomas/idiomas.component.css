@@ -7,73 +7,24 @@
     width: 200px;
     overflow: hidden;
 }
-.cuadromar01{
-    border-radius: 50%;
+.letras {
     height: 200px;
     width: 200px;
-    border-left: 20px solid rgb(101, 227, 236, 0.3);
-    border-right: 20px solid rgb(101, 227, 236, 0.3);
-    border-top: 20px solid rgb(101, 227, 236, 0.3);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     color: rgb(10, 214, 10);
     text-align: center;
 }
-.cuadromar01 h2{
+.letras h2{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.cuadromar01 h1{
+.letras h1{
     font-family: sans-serif;
     margin-bottom: -27px;
 }
-.cuadromar01 h1,h2{
+.letras h1,h2{
     margin-top: 20px;
-}
-.cuadromar02{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    top: -20px;
-    left: -20px;
-    transform: rotate(-135deg);
-}
-.circulo7{
-    border-top: 20px solid rgb(10, 214, 10, 0.8);
-    border-left: 20px solid rgb(10, 214, 10, 0.8);
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    animation: rotar7 1s linear forwards;
-    animation-delay: 7s;
-}
-.circulo8{
-    border-top: 20px solid rgb(10, 214, 10, 0.8);
-    border-left: 20px solid rgb(10, 214, 10, 0.8);
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    animation: rotar8 1s linear forwards;
-    animation-delay: 8s;
-}
-.circulo9{
-    border-top: 20px solid rgb(10, 214, 10, 0.8);
-    border-left: 20px solid rgb(10, 214, 10, 0.8);
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    animation: rotar9 1s linear forwards;
-    animation-delay: 9s;
-}
-
-@keyframes rotar7{
-    100%{
-        transform: rotate(36deg);
-    }
-}
-@keyframes rotar8{
-    100%{
-        transform: rotate(18deg);
-    }
-}
-@keyframes rotar9{
-    100%{
-        transform: rotate(-18deg);
-    }
 }

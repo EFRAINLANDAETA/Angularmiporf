@@ -76,6 +76,33 @@
                 "descripcion03":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur molestiae facilis dicta, totam alias quia veritatis asperiores laborum, quae sit nihil corporis fuga officia nemo ipsam? Recusandae dignissimos est voluptates."
                 }
         }
-        ]
+        ],
+    "skills":{
+        "propiedad01":"",
+        "porcent01": "",
+        "propiedad02":"",
+        "porcent02":"",
+        "propiedad03":"",
+        "porcent03":"",
+        "propiedad04":"",
+        "porcent04":"",
+        "propiedad05":"",
+        "porcent05":85,
+        "propiedad06":"",
+        "porcent06":""
+    },
+    "idiomas":[{
+        "idioma":"Ingles",
+        "porcentLect":95,
+        "porcentEscr":85,
+        "porcentLocu":65
+    },
+    {
+        "idioma":"Frances",
+        "porcentLect":45,
+        "porcentEscr":68,
+        "porcentLocu":83
+    }]
+    
 
 }

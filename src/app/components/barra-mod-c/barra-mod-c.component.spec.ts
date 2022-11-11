@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IdiomasComponent } from './idiomas.component';
+import { BarraModCComponent } from './barra-mod-c.component';
 
-describe('IdiomasComponent', () => {
-  let component: IdiomasComponent;
-  let fixture: ComponentFixture<IdiomasComponent>;
+describe('BarraModCComponent', () => {
+  let component: BarraModCComponent;
+  let fixture: ComponentFixture<BarraModCComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IdiomasComponent ]
+      declarations: [ BarraModCComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IdiomasComponent);
+    fixture = TestBed.createComponent(BarraModCComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
