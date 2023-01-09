@@ -19,9 +19,6 @@ import { BarraModCComponent } from './components/barra-mod-c/barra-mod-c.compone
 import { BarraModDComponent } from './components/barra-mod-d/barra-mod-d.component';
 import { BarraModEComponent } from './components/barra-mod-e/barra-mod-e.component';
 import { BarraModFComponent } from './components/barra-mod-f/barra-mod-f.component';
-import { BarraModGComponent } from './components/barra-mod-g/barra-mod-g.component';
-import { BarraModHComponent } from './components/barra-mod-h/barra-mod-h.component';
-import { BarraModIComponent } from './components/barra-mod-i/barra-mod-i.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
@@ -44,9 +41,6 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     BarraModDComponent,
     BarraModEComponent,
     BarraModFComponent,
-    BarraModGComponent,
-    BarraModHComponent,
-    BarraModIComponent,
   ],
 
   imports: [

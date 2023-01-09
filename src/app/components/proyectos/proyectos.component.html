@@ -22,7 +22,7 @@
                 <h5 class="fst-italic">{{proyectos.empresa}}</h5>
                 <h5 class="fst-italic"><time>{{proyectos.inicio}}</time> - <time>{{proyectos.final}}</time></h5>
                 <p class="">{{proyectos.descripcion}}</p>
-                <!--modulo carrusel-->
+                <!--modulo interno-->
                 <div class="row col-12 m-0 p-0">
                     <div class="col-3 position-relative">
                         <a class="position-absolute fs-3 fst-italic top-50 start-50 translate-middle" style="text-align: center;" href="#">
@@ -30,68 +30,20 @@
                         </a>
                     </div>
                     <div class="col-9">
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row col-12 position-relative">
-                                        <div>
-                                            <img [src]="proyectos.referencias.img01" class="img-fluid" style="width: 300px; height: 250px" alt="...">
-                                        </div>
-                                        <div class="col-7 position-absolute end-0 d-none d-md-block">
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                            <div class="border-bottom mb-3" style="height: 10px"></div>
-                                            <div class="div overflow-auto" style="height: 180px">
-                                                <h5 class="text-dark">{{proyectos.referencias.subTitulo01}}</h5>
-                                                <p class="text-dark">{{proyectos.referencias.descripcion01}}</p>
-                                            </div>
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row col-12 position-relative">
-                                        <div>
-                                            <img [src]="proyectos.referencias.img02" class="img-fluid" style="width: 300px; height: 250px" alt="...">
-                                        </div>
-                                        <div class="col-7 position-absolute end-0 d-none d-md-block">
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                            <div class="border-bottom mb-3" style="height: 10px"></div>
-                                            <div class="div overflow-auto" style="height: 180px">
-                                                <h5 class="text-dark">{{proyectos.referencias.subTitulo02}}</h5>
-                                                <p class="text-dark">{{proyectos.referencias.descripcion02}}</p>
-                                            </div>
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row col-12 position-relative">
-                                        <div>
-                                            <img [src]="proyectos.referencias.img03" class="img-fluid" style="width: 300px; height: 250px" alt="...">
-                                        </div>
-                                        <div class="col-7 position-absolute end-0 d-none d-md-block">
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                            <div class="border-bottom mb-3" style="height: 10px"></div>
-                                            <div class="div overflow-auto" style="height: 180px">
-                                                <h5 class="text-dark">{{proyectos.referencias.subTitulo03}}</h5>
-                                                <p class="text-dark">{{proyectos.referencias.descripcion03}}</p>
-                                            </div>
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                            <div class="border-bottom" style="height: 10px"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="row col-12 position-relative">
+                            <div>
+                                <img [src]="proyectos.referencias.img01" class="img-fluid" style="width: 300px; height: 250px" alt="...">
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                            <div class="col-md-4 col-lg-6 col-xl-7 position-absolute end-0 d-none d-md-block">
+                                <div class="border-bottom" style="height: 10px"></div>
+                                <div class="border-bottom mb-3" style="height: 10px"></div>
+                                <div class="div overflow-auto" style="height: 180px">
+                                    <h5 class="text-dark">{{proyectos.referencias.subTitulo01}}</h5>
+                                    <p class="text-dark">{{proyectos.referencias.descripcion01}}</p>
+                                </div>
+                                <div class="border-bottom" style="height: 10px"></div>
+                                <div class="border-bottom" style="height: 10px"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
